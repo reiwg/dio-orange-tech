@@ -1,4 +1,4 @@
-package Exercicios.Desafio_da_mesada;
+package Desafios_da_plataforma.Desafio_da_mesada;
 
 import java.util.Scanner; 
     

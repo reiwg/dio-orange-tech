@@ -1,0 +1,21 @@
+package Desafios_da_plataforma.Desafio_da_porcentagem;
+
+import java.util.Objects;
+import java.util.Scanner; 
+    
+public class Program {
+    public static void main(String[] args) {
+        
+    
+        Scanner leitor = new Scanner(System.in);
+        int tamanho = leitor.nextInt();
+
+        StringBuilder progresso = new StringBuilder();
+        if (Objects.nonNull(tamanho)) {
+            for(int i = 0; i < tamanho; i++){
+                progresso.append("/");
+            }
+            System.out.println(progresso);
+        }
+    }
+}
