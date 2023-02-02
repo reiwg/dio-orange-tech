@@ -1,17 +1,28 @@
 package Desafios_da_plataforma.Desafio_da_porcentagem;
 
+import java.util.Scanner;
+
+// Você foi contratado para criar um gerenciador de pacotes.
+//  Porém, o que restou para você fazer foi o contador de porcentagem de download dos pacotes.
+//   Mas como o espaço para essa informação ficou pequeno, a empresa optou por fazer uma escala de 10 – 1.
+//    Então a escala será 1 = 10%, 2 = 20%, 3 = 30% e etc.
+// Para cada 10% de download, o programa deve printar, em sequência e sem espaços, uma barra “/”
+
 public class Porcentagem {
     public static void main(String[] args) {
-        
-        int tamanho = 1;
-        String barra = "/";
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Qual a porcentagem? ");
+        int entrada = scan.nextInt();
 
-        for (int i = 1 ; i <= 10 ; i ++) {
-            int resultado = tamanho * i;
-            System.out.println (resultado + " " + barra);
+        String barras = "";
 
-            
-            
+        for (int i = 1 ; i <= entrada ; i++) {
+            barras += "/";
         }
+
+        System.out.println(barras);
+        
     }
 }
+
+
