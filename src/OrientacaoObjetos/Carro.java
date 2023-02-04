@@ -13,7 +13,7 @@ class Carro {
         this.modelo = modelo;                                 
         this.capacidadeTanque = capacidadeTanque;
 
-    } 
+    }
 
     public void setCor(String cor) { // set coloca no atributo e deve ser void pois nao retorna nada
         this.cor = cor;
