@@ -7,6 +7,10 @@ class Carro {
     private String cor; // os atributos devem ser private
     private String modelo;
     private int capacidadeTanque;
+
+    Carro () {
+        
+    }
     
     Carro (String cor, String modelo, int capacidadeTanque) {  //aqui é o constructor, tem o mesmo nome da classe 
         this.cor = cor;                                        //pode ter a overload, em que apenas os parametros mudam

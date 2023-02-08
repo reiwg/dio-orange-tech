@@ -17,9 +17,9 @@ public class ArrayMultidimensional {
         }
 
         System.out.println("Matriz: ");
-        for (int[] linha : M ) {  
-            for (int coluna : linha) {
-                System.out.println(coluna);
+        for (int[] linha : M ) {  //para cada linha da matriz M 
+            for (int coluna : linha) { //pegue a coluna desta linhaM
+                System.out.println(coluna); //imprima esta coluna
                 
             }
             System.out.println();
